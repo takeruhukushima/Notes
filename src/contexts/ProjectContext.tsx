@@ -155,7 +155,7 @@ export const ProjectProvider: React.FC<{ children: ReactNode }> = ({ children })
           content: 'Completed the initial design and layout of the this website and deploy it.'
         }
       ],
-      appUrl: 'https://example.com/project1',
+      appUrl: 'https://project-list-pi.vercel.app/projects/1',
       githubUrl: 'https://github.com/takeruhukushima/Project-List'
     }
     // 他のプロジェクトデータ...
