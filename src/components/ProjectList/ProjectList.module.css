@@ -1,0 +1,52 @@
+/* src/components/ProjectList/ProjectList.module.css */
+.list {
+    background-color: #ffffff; /* 白 */
+    border: 1px solid #dee2e6; /* 薄いボーダー */
+    border-radius: 5px; /* 角を丸く */
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 軽いシャドウ */
+  }
+  
+  .title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #343a40; /* ダークグレー */
+    margin-bottom: 1rem;
+  }
+  
+  .projectList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .projectItem {
+    border-bottom: 1px solid #dee2e6; /* 薄いボーダーでアイテムを区切り */
+    padding: 1rem 0;
+  }
+  
+  .projectItem:last-child {
+    border-bottom: none; /* 最後のアイテムはボーダーなし */
+  }
+  
+  .projectLink {
+    text-decoration: none;
+    color: #007bff; /* 青 */
+    display: block;
+  }
+  
+  .projectLink:hover {
+    text-decoration: underline;
+  }
+  
+  .projectTitle {
+    font-size: 1.25rem;
+    color: #343a40; /* ダークグレー */
+    margin: 0;
+  }
+  
+  .projectDescription {
+    font-size: 1rem;
+    color: #495057; /* 少し明るいグレー */
+  }
+  

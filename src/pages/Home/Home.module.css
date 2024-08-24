@@ -1,0 +1,127 @@
+.container {
+    padding: 2rem;
+    background-color: #ffffff; /* 背景色を白に設定 */
+    border-radius: 10px; /* 角を丸くして柔らかい印象に */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 軽いシャドウで立体感を追加 */
+    margin: 2rem auto; /* 周囲にスペースを追加し中央に配置 */
+    max-width: 1200px; /* 最大幅を指定 */
+    margin-top: 80px; /* ヘッダーの高さに合わせて調整 */
+    font-family: 'Noto Serif', serif; /* フォント統一 */
+}
+
+.pageTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40; /* ダークグレー */
+    margin-bottom: 1rem;
+}
+
+.projectSection {
+    margin-top: 2rem;
+}
+
+.projectCardLink {
+    text-decoration: none; /* 初期状態ではアンダーラインなし */
+    color: inherit; /* リンクのデフォルトの色を継承 */
+}
+
+.projectCardLink:hover {
+    text-decoration: none; /* ホバー時にもアンダーラインなし */
+    color: #0056b3; /* ホバー時のリンク色（オプション） */
+}
+
+.projectCard {
+    border: 1px solid #dee2e6; /* 薄いボーダーでカードを区切り */
+    border-radius: 10px; /* 角を丸くして柔らかい印象に */
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: box-shadow 0.3s ease; /* ホバー時のトランジション */
+}
+
+.projectCard:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* ホバー時にシャドウを追加 */
+}
+
+.projectTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40; /* ダークグレー */
+    margin-bottom: 0.5rem;
+}
+
+.projectDescription {
+    font-size: 1rem;
+    color: #495057; /* グレー */
+    margin-bottom: 0.5rem;
+}
+
+.projectProgression {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.progression-in-progress {
+    color: #007bff; /* 青色 */
+}
+
+.progression-deployed {
+    color: #28a745; /* 緑色 */
+}
+
+.progression-ideas {
+    color: #ffc107; /* 黄色 */
+}
+
+/* プロジェクトリンクのスタイル */
+.projectLink {
+    text-decoration: none; /* 初期状態ではアンダーラインなし */
+    color: #007bff; /* リンクの色 */
+}
+
+.projectLink:hover {
+    text-decoration: none; /* ホバー時にもアンダーラインなし */
+    color: #0056b3; /* ホバー時のリンク色（オプション） */
+}
+
+.progressSection {
+    margin-top: 2rem;
+}
+
+.progressTitle {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #343a40; /* ダークグレー */
+    margin-bottom: 1rem;
+}
+
+.progressList {
+    margin-top: 1rem;
+}
+
+.progressItem {
+    border-bottom: 1px solid #dee2e6; /* 薄いボーダーでアイテムを区切り */
+    padding: 1rem 0;
+}
+
+.progressItem:last-child {
+    border-bottom: none; /* 最後のアイテムはボーダーなし */
+}
+
+.updateTitle {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #343a40; /* ダークグレー */
+    margin-bottom: 0.5rem;
+}
+
+.updateDate {
+    font-size: 0.875rem;
+    color: #6c757d; /* グレー */
+    margin-bottom: 0.5rem;
+}
+
+.updateContent {
+    font-size: 1rem;
+    color: #495057; /* グレー */
+}

@@ -1,0 +1,18 @@
+/* src/components/Footer/Footer.module.css */
+.footer {
+    background-color: #f8f9fa; /* 明るいグレー */
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid #dee2e6; /* 薄いボーダー */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  p {
+    color: #6c757d; /* グレー */
+    font-size: 0.875rem; /* 少し小さめ */
+  }
+  
