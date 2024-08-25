@@ -1,9 +1,21 @@
-##WebPages deploy on this Repository
-https://project-list-pi.vercel.app/projects/1
+## WebPages deploy on this Repository
+
+https://project-list-pi.vercel.app/
 
 ## About me and this Repository
 
-このウェブページは、私が20歳の高等専門学校生である2024年8月24日現在の個人プロジェクトを紹介するためのものです。プログラムが少し理解できるようになり、生成系AIやその他の技術に助けられながら、プロジェクトを少しずつ展開しています。私の周りではまだ古い技術が使われていることが多いので、自分の力で何か新しいものを作りたいと考えています。技術やセキュリティの面で改善が必要な点も多いですが、日々学びながら進歩していきたいと思っています。
+このウェブページは、私が20歳の高等専門学校生である2024年8月24日現在の個人プロジェクトを紹介するためのものです。プログラムが少し理解できるようになり、生成系AIやその他の技術に助けられながら、プロジェクトを少しずつ展開しています。私の周りではまだ古い技術が使われていることが多いので、自分の力で何か新しいものを作りたいと考えています。技術やセキュリティの面で改善が必要な点も多いですが、日々学びながら進歩していきたいと思っています。by GPT
+
+
+Framework and language: React+typescrypt
+
+Hosting : vercell
+
+(Database : supabase)
+
+(API: Dify + Fast API)
+
+※()内はこのレポジトリで使っていませんがProject内で使用する、あるいはその予定のあるものです
 
 ## アプリ開発のご要望がある方
 
