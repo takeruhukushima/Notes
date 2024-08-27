@@ -12,7 +12,7 @@ const Home: React.FC = () => {
   const sortedProjects = [...projects].sort((a, b) => {
     if (a.id === "1") return -1; // id=1のプロジェクトを最上部に
     if (b.id === "1") return 1;  // id=1のプロジェクトが最上部でない場合
-    return a.progression.localeCompare(b.progression); // 進捗でソート
+    return b.progression.localeCompare(a.progression); // 進捗で逆順にソート
   });
 
   return (
