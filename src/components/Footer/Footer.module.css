@@ -1,18 +1,21 @@
 /* src/components/Footer/Footer.module.css */
+
+/* フッター全体のスタイル */
 .footer {
-    background-color: #f8f9fa; /* 明るいグレー */
-    padding: 1rem;
-    text-align: center;
-    border-top: 1px solid #dee2e6; /* 薄いボーダー */
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  p {
-    color: #6c757d; /* グレー */
-    font-size: 0.875rem; /* 少し小さめ */
-  }
-  
+  background-color: #2e2e2e; /* ダークグレー */
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #444; /* ダークなボーダー */
+}
+
+/* コンテナのスタイル */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 段落のスタイル */
+p {
+  color: #b0b0b0; /* 明るいグレー */
+  font-size: 0.875rem; /* 少し小さめ */
+}

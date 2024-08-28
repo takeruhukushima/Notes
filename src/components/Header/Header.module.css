@@ -1,60 +1,74 @@
+/* Dark Theme Header Styles */
+
+/* ヘッダー全体のスタイル */
 .header {
-    background-color: #ffffff; /* 白 */
+    background-color: #1e1e1e; /* ダークグレー */
     padding: 1rem 2rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 軽いシャドウ */
-    border-bottom: 1px solid #dee2e6; /* 薄いボーダー */
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2); /* ダークテーマに合わせた明るいシャドウ */
+    border-bottom: 1px solid #333; /* ダークなボーダー */
     position: fixed; /* ヘッダーを固定 */
     top: 0; /* 上部に固定 */
     left: 0;
     width: 100%; /* 横幅を100%に */
     z-index: 1000; /* 上に表示 */
     font-family: 'Noto Serif', serif; /* フォント統一 */
-}
+    color: #e0e0e0; /* テキスト色を明るいグレー */
+  }
   
-.container {
+  /* コンテナのスタイル */
+  .container {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+  }
   
-.logo {
+  /* ロゴのスタイル */
+  .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #343a40; /* ダークグレー */
-}
+    color: #f5f5f5; /* 明るいグレー */
+  }
   
-.logoLink {
+  /* ロゴリンクのスタイル */
+  .logoLink {
     text-decoration: none; /* 下線を消す */
     color: inherit; /* 親要素の色を継承する */
-}
+  }
   
-.logoLink:hover {
+  .logoLink:hover {
     text-decoration: none; /* ホバー時にアンダーラインなし */
-}
+  }
   
-.nav {
+  /* ナビゲーションのスタイル */
+  .nav {
     display: flex;
-}
+  }
   
-.navList {
+  /* ナビゲーションリストのスタイル */
+  .navList {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
-}
+  }
   
-.navItem {
+  /* ナビゲーションアイテムのスタイル */
+  .navItem {
     margin-left: 1rem;
-}
+  }
   
-.navLink {
-    color: #007bff; /* 青 */
+  /* ナビゲーションリンクのスタイル */
+  .navLink {
+    color: #3498db; /* 青色 */
     text-decoration: none;
     font-size: 1rem;
-}
+  }
   
-.navLink:hover {
+  /* ナビゲーションリンクのホバー時のスタイル */
+  .navLink:hover {
     text-decoration: none; /* ホバー時にアンダーラインなし */
-}
+    color: #7f8c8d; /* ホバー時にグレーがかった青色に変化 */
+  }
+  

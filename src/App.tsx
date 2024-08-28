@@ -1,21 +1,20 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home/Home';
-import ProjectDetailPage from './pages/ProjectDetailPage/ProjectDetailPage';
-import { ProjectProvider } from './contexts/ProjectContext';
+import ProjectDetailPage from './pages/PostDetail/PostDetailPage';
+import { BlogProvider } from './contexts/BlogContext'; // BlogProvider をインポート
 import './styles/global.css'; // グローバルスタイルのインポート
-
 
 const App: React.FC = () => {
   return (
-    <ProjectProvider>
+    <BlogProvider>
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/projects/:id" element={<ProjectDetailPage />} />
+          <Route path="/posts/:id" element={<ProjectDetailPage />} />
         </Routes>
       </Router>
-    </ProjectProvider>
+    </BlogProvider>
   );
 };
 

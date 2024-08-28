@@ -1,17 +1,21 @@
+/* Dark Theme Styles */
+
+/* コンテナ全体のスタイル */
 .container {
   padding: 2rem;
-  background-color: #ffffff;
+  background-color: #1e1e1e; /* ダークグレー */
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* ダークテーマに合わせた明るいシャドウ */
   margin: 2rem auto;
   max-width: 1200px;
   margin-top: 80px;
   font-family: 'Noto Serif', serif;
+  color: #e0e0e0; /* テキスト色を明るいグレー */
 }
 
 .projectContent {
   font-size: 1rem;
-  color: #495057;
+  color: #b0b0b0; /* 明るいグレー */
   margin-top: 1.5rem; /* 上部に余白を追加 */
   margin-bottom: 1.5rem; /* 下部に余白を追加 */
 }
@@ -23,13 +27,13 @@
 .projectTitle {
   font-size: 2rem;
   font-weight: bold;
-  color: #343a40;
+  color: #f5f5f5; /* 明るいグレー */
   margin-bottom: 1rem;
 }
 
 .projectDescription {
   font-size: 1rem;
-  color: #495057;
+  color: #b0b0b0; /* 明るいグレー */
   margin-bottom: 1rem; /* 下部に余白を追加 */
 }
 
@@ -41,15 +45,15 @@
 
 /* progression ステータスのスタイル */
 .progressionIdeas {
-  color: #f39c12; /* 黄色 */
+  color: #f1c40f; /* 黄色 */
 }
 
 .progressionDeployed {
-  color: #28a745; /* 緑色 */
+  color: #2ecc71; /* 緑色 */
 }
 
 .progressionInProgress {
-  color: #007bff; /* 青色 */
+  color: #3498db; /* 青色 */
 }
 
 .progressSection {
@@ -59,7 +63,7 @@
 .progressTitle {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #343a40;
+  color: #f5f5f5; /* 明るいグレー */
   margin-bottom: 1rem;
 }
 
@@ -68,7 +72,7 @@
 }
 
 .progressItem {
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #333; /* ダークなボーダー */
   padding: 1rem 0;
   transition: background-color 0.3s ease;
 }
@@ -78,17 +82,18 @@
 }
 
 .progressItem:hover {
-  background-color: #f8f9fa;
+  background-color: #2c2c2c; /* ダークグレーのホバー背景 */
 }
 
 .updateTitle {
   font-size: 1.25rem;
   font-weight: bold;
+  color: #f5f5f5; /* 明るいグレー */
 }
 
 .updateDate {
   font-size: 0.9rem;
-  color: #6c757d;
+  color: #8c8c8c; /* グレー */
 }
 
 .updateContent {
@@ -98,14 +103,14 @@
 /* リンクのスタイル */
 .projectLink {
   font-size: 1rem;
-  color: #007bff;
+  color: #3498db; /* 青色 */
   text-decoration: none; /* アンダーラインを除去 */
   margin-top: 1.5rem; /* 上部に余白を追加 */
   transition: box-shadow 0.3s ease, transform 0.3s ease; /* シャドウとトランスフォームのトランジション */
 }
 
 .projectLink:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* シャドウを追加 */
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3); /* ホバー時に明るいシャドウを追加 */
   transform: translateY(-2px); /* 少し上に浮かせる */
   text-decoration: none; /* アンダーラインを除去 */
 }
