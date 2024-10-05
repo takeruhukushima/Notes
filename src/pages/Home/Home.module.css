@@ -24,9 +24,6 @@
 /* ブログセクションのスタイル */
 .blogSection {
     margin-top: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px; /* カード間の隙間 */
 }
 
 /* ブログカードリンクのスタイル */
@@ -47,7 +44,6 @@
     padding: 1.5rem;
     margin-bottom: 1.5rem;
     transition: box-shadow 0.3s ease; /* ホバー時のトランジション */
-    flex: 1 1 calc(33.333% - 16px); /* 横幅を3つ並ぶように設定 */
     box-sizing: border-box; /* パディングとボーダーを含めた幅設定 */
 }
 
