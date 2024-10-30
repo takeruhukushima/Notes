@@ -47,6 +47,28 @@ const BlogProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
 
 //     },
 
+{
+  id: '14',
+  title: '某国',
+  description: 'ゼンゼロすごいのよ。やんないけど。',
+  content: `
+祖母の家に行くと某国への偏見がすごい。
+
+閉じたコミュニティで情報だけ摂取するというのも考えさせられる。
+
+いいものを作るって感覚に国境なんて無いだろうと思う。
+
+最近、某国の学生のgithubを見たり、ゲーム作品を見たりして。
+
+`,
+  datePublished: '2024-10-30',
+  tags: ['TAWAGOTO'],
+  footnotes: [
+  ],
+
+},
+
+
     {
       id: '13',
       title: '論理的必然性',
