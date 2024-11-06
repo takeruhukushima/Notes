@@ -48,6 +48,31 @@ const BlogProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
 //     },
 
     {
+      id: '28',
+      title: '始り',
+      description: '物語が動き始めた',
+      content: `
+
+　始りは2024年11月03日、日曜日。文化祭の閉会式も終わり、花火が始まるまでの1時間ほどのことでした。
+
+　この物語は紛れもなく彼女が始めた物語です。
+
+　だから、この物語の盛衰を決める人間をひとり選ばなければならないとするならば、僕は彼女を選出するだろうと思います。
+
+　また、未来にいる自分もその意思が同じであることを願っています。
+
+
+
+`,
+      datePublished: '2024-11-06',
+      tags: ['takerufukushima'],
+      footnotes: [
+      ],
+
+    },
+
+
+    {
       id: '27',
       title: '炭鉱のモーター',
       description: '再現性からの逸脱',
@@ -70,13 +95,14 @@ const BlogProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
 
 何かあったらご理解いただいて優しくフォローしていただくとありがたいです。
 
-言うこともないので、たぶんしばらく黙ります。
+言うこともないので、たぶんしばらく黙ります。たぶん。
 
 
 `,
       datePublished: '2024-11-05',
       tags: ['takerufukushima'],
       footnotes: [
+        { id: '1', content: 'Lost and found', link: 'https://open.spotify.com/intl-ja/track/0Po8a9ZRgWxpMycjiyf2sA?si=7459777811264504' },
       ],
 
     },
