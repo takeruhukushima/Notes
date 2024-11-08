@@ -69,9 +69,8 @@ const BlogProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
 
 `,
       datePublished: '2024-11-08',
-      tags: ['', '', ''],
+      tags: ["MOGEN"],
       footnotes: [
-        { id: '1', content: '', link: '' },
       ],
 
     },
