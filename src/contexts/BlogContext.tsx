@@ -48,6 +48,34 @@ const BlogProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
 //     },
 
     {
+      id: '39',
+      title: '無知',
+      description: '『春宵十話』を読んでから頭をよぎる',
+      content: `
+
+全知全能の存在がいたとする。
+名前を阿弥陀如来としてみよう。
+
+その人と比べたら、貴方と私の能力はどんぐりどころかnmの背比べだろう。
+
+佛のような如来さんは、お人好しで様々な知識を授けてくれるのだけれど、自分の無知を恥じている人と無知でも「えへっ」って堂々としてる人どっちに教えてあげたくなるだろう。
+
+僕は結構、堂々とした人が好きですね。
+
+「私達バカ（勉強できない）だけどさ、それがなんなの？」
+
+中・高一貫して、そういう人とよく話していた気がする。
+
+`,
+      datePublished: '2024-11-10',
+      tags: ['TAWAGOTO'],
+      footnotes: [
+      ],
+
+    },
+
+
+    {
       id: '38',
       title: '小説',
       description: '義務感の排斥',
@@ -68,7 +96,7 @@ const BlogProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
 
 
 `,
-      datePublished: '20XX-XX-XX',
+      datePublished: '2024-11-10',
       tags: ['takeru.fukushima.'],
       footnotes: [
       ],
