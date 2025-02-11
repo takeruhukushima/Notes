@@ -47,6 +47,21 @@ const BlogProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
 
 //     },
 
+    {
+      id: '65',
+      title: '　',
+      description: '',
+      content: `
+   
+`,
+      datePublished: '2024-02-11',
+      tags: ['', '', ''],
+      footnotes: [
+        { id: '1', content: '', link: '' },
+      ],
+
+    },
+
   
     {
       id: '64',
