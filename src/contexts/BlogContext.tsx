@@ -47,20 +47,21 @@ const BlogProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
 
 //     },
 
-//     {
-//       id: '65',
-//       title: '',
-//       description: '',
-//       content: `
+    {
+      id: '65',
+      title: '再開',
+      description: 'The resumpsion',
+      content: `
+これをどれだけの人間が見ているかわからないけど、僕は僕の記憶を記録していくことは続けていきたい。死ぬ間際の退屈な数年間を慰めるための文章がいくつか、もしかしたらかなり多くあったって構わないじゃないか。
    
-// `,
-//       datePublished: '2024-02-11',
-//       tags: ['', '', ''],
-//       footnotes: [
-//         { id: '1', content: '', link: '' },
-//       ],
+`,
+      datePublished: '2024-04-17',
+      tags: [],
+      footnotes: [
+      ],
 
-//     },
+    },
+
 
   
 //     {
