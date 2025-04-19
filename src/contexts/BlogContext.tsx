@@ -48,6 +48,22 @@ const BlogProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
 //     },
 
     {
+      id: '66',
+      title: '大学院入試',
+      description: 'むずすぎる。',
+      content: `
+大学院入試の勉強を始めた。遅すぎた。
+教育格差というやつなのだろうか。僕が無能で才能がないのはわかるのだけど、難しすぎる。受かるわけがない、でも挑戦だけはしてみる。
+    
+`,
+      datePublished: '2025-04-19',
+      tags: [],
+      footnotes: [
+      ],
+
+    },
+
+    {
       id: '65',
       title: '再開',
       description: 'The resumpsion',
