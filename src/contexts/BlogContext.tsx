@@ -47,6 +47,25 @@ const BlogProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
 
 //     },
 
+
+    {
+      id: '68',
+      title: '勿忘',
+      description: '',
+      content: `
+
+始まりは幼稚園のことだった。面長の少年を徒競走の時に殴った。理由は覚えていない。その次は小学生の頃、これは数えきれないほど犯してしまった。「デブと言われたから」その理由が一番多かった。僕には異常性があった。社会的に。暴力性が。
+
+`,
+      datePublished: '2025-05-17',
+      tags: ['takeru.fukushima.'],
+      footnotes: [
+      ],
+
+    },
+
+
+
     {
       id: '67',
       title: 'よく考えれば',
