@@ -47,6 +47,20 @@ const BlogProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
 
 //     },
 
+    {
+      id: '69',
+      title: '実験屋/計算屋',
+      description: '',
+      content: `
+
+`,
+      datePublished: '2025-05-24',
+      tags: [],
+      footnotes: [
+      ],
+
+    },
+
 
     {
       id: '68',
