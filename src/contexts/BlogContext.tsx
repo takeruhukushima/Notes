@@ -73,7 +73,7 @@ const BlogProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
 孤独に黙々と勉強をする。Youtubeを見たり、音楽も聞いてるか。また豊富に書くことが出てくることを願うばかりだな。
 
       `,
-     datePublished: '20XX-0X-XX',
+     datePublished: '2025-07-26',
      tags: [],
      footnotes: [],
    },
