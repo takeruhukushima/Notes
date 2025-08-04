@@ -43,6 +43,30 @@ const BlogProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   //    footnotes: [],
   //  },
   
+    {
+      id: '79',
+      title: '最近のAI',
+      description: '中間（なのかな）報告',
+      content: `
+      
+　最近のAIについてまとめてみよう。最近はもっぱら試験勉強しかしていないが、そこでももちろんAI（LLM）を活用している。
+      
+　学生だったら無料になるGoogleのgeminiが便利で、Gemini-2.5-proは（おそらく）間違いもなく、解答を提供してくれる。
+      
+　最近はAgentという言葉が流行りで、LLMがプログラムを呼び出してさまざまなタスクをこなしてくれる。らしい。Manus,OpenAI、SakanaAIはAgentのサービスを提供している。GoogleがいつになったらAgent系のサービスを提供するのかわからないが、SaaSとしてのGoogle のサービスの練度が他に比べて弱い気がしている。
+      
+　巷ではOpenAIのGPT-5が出るか出ないか、みんないそいそしている時期でもある。GPT-5はこれまでの色々なサービスを集合させたようなmodelらしく、皆楽しみで仕方がないらしい。
+
+　それに、OpenAI製のOpen weghit modelが出るのも近いらしく、それも楽しみな時期でもある。
+
+　今後のLLMの進化がどう進むのか楽しみだな。
+      
+      `,
+     datePublished: '2025-08-04',
+     tags: ["LLM", "AI", "Agent"],
+     footnotes: [],
+   },
+  
   
     {
       id: '78',
