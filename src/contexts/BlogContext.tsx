@@ -1181,7 +1181,7 @@ God is a concept by which we measure our pain.
       title: 'myenv',
       description: '',
       content: `
-venv\Scripts\activates
+venv\\Scripts\\activates
 
 どうやら世界は盲目にバカな前傾にならないと動くことすら許してくれないようですこんにちは
 
