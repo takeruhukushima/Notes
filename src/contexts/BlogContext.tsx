@@ -42,6 +42,28 @@ const BlogProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   //    tags: [],
   //    footnotes: [],
   //  },
+      
+    {
+      id: '83',
+      title: 'neovimというロマン',
+      description: 'neovimを始めた。',
+      content: `
+　開発や趣味のプログラミングで活用するべく、neovimを始めた。僕はlazyvimをそのまま使っている。vimはluaなどの設定ファイルを書き換えればカスタマイズも自由にできるので、いずれは自分でカスタマイズも行ってみたい。でも悲しいことに、ほとんどの開発はcli tool、最近はcodex appのようなデスクトップアプリで完結させられてしまうから、ほとんど検索と閲覧のためにしか使っていないのが現状だ。
+
+　最近は本当にAIが便利になった。論文を書きたければlatexをgemini cliに書かせればいいし、アプリであるPrism（by openai）やOpennoteを使えばいい。PrisimはBeamerというlatexでのスライド機能を教えてくれた。それを使って、仕事のパワポ作成にも活かしている。（Beamerでpptxを書いたら数ヶ月ぶりに返信をいただいた。）
+
+　ローカルでの学会用のポスター作成とpptx作成機能が課題として残っている。今度からのポスター作成はlatexで作ってみようと思っている。
+
+　最近は手書き（というのか？）でタイピングして文字を打つことも少なくなったので書く能力も低迷しているのを自覚している。こうやって少しずつでも誰もみていないBlogを書いていこう。
+
+`,
+     datePublished: '2026-02-05',
+     tags: [],
+     footnotes: [],
+   },
+ 
+
+
       {
       id: '82',
       title: '近況',
@@ -62,7 +84,7 @@ const BlogProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
 
     {
       id: '81',
-      title: '僕の結論',
+      title: '結論',
       description: '',
       content: `
       
