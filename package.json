@@ -23,8 +23,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "posts": "python3 generate_posts.py",
+    "start": "npm run posts && react-scripts start",
+    "build": "npm run posts && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
